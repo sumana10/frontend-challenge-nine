@@ -44,6 +44,7 @@ h3{
 p{
   opacity: 0.8;
   line-height: 1.7;
+  width: 80%;
 }
 
 .line-top::before{
@@ -198,7 +199,6 @@ header::before{
 }
 
 .bg-violet h2{
-
   font-size: 3em;
   color: #fff;
   padding: 0;
@@ -232,12 +232,8 @@ footer ul{
 }
 
 footer ul.flex li:not(:first-child){
-
   margin-left: 15px;
-
 }
-
-
 
 footer li{
 
@@ -357,7 +353,9 @@ footer li a{
     width: 100%;
     margin-bottom: 20px;
   }
-
+  p{
+    width: 100%;
+  }
   footer{
     background-image: url(images/bg-pattern-footer-mobile.svg);
     background-size: 100% auto;
