@@ -2,7 +2,7 @@
 /* colors used in project */
 :root{
   --dark-violet: hsl(256, 26%, 20%);
-  --graish-blue: hsl(216, 30%, 68%);
+  --grayish-blue: hsl(216, 30%, 68%);
   --very-dark-violet: hsl(270, 9%, 17%);
   --dark-grayish-violet: hsl(273, 4%, 51%);
   --very-light-gray: hsl(0, 0%, 98%);
@@ -220,7 +220,6 @@ background-position: top left;
 
 }
 
-
 footer h4{
   color: var(--dark-grayish-violet);
   text-decoration: uppercase;
@@ -252,7 +251,7 @@ footer li a{
 
 .border-bottom{
 
-  border-bottom: 1px solid var(--graish-blue);
+  border-bottom: 1px solid var(--grayish-blue);
   margin-bottom: 30px;
 }
 
@@ -267,7 +266,6 @@ footer li a{
   nav .flex{
     flex-direction: row;
   }
-
   nav .img-wrapper{
     text-align: left;
   }
@@ -342,6 +340,7 @@ footer li a{
     margin-left: -20px;
     margin-right: -20px;
     max-width: calc(100% + 40px);
+    margin-bottom: -10px;
    
   }
 
@@ -369,6 +368,9 @@ footer li a{
   footer .flex div{
     width: 100%;
   }
-  
+  h1,h2{ 
+    font-size: 3em;
+  }
+
   
 }
