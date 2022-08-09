@@ -175,6 +175,7 @@ header{
 header *{
   z-index: 1;
 }
+
 header::after{
   content: '';
   background-image: url('./images/bg-pattern-intro-right-desktop.svg');
@@ -278,18 +279,23 @@ footer li a{
   body{
     text-align: center;
   }
+
   nav{
     padding: 20px 0;
   }
+
   nav .flex{
     flex-direction: row;
   }
+
   nav .img-wrapper{
     text-align: left;
   }
+
   nav ul{
     display: none;
   }
+
   nav ul.show {
 		background-color: var(--very-dark-violet); 
 		display: flex;
@@ -303,16 +309,20 @@ footer li a{
 		height: calc(100vh - 70px);
 		z-index: 100;
 	}
+
   nav ul li{
     margin: 20px 0;
   }
+
   nav ul a {
     color:#fff
   }
+
   .btn-reverse{
     border-color: #fff;
     color: #fff;
   }
+  
   header{
     padding-top: 0;
     margin-bottom: 50px;
@@ -336,9 +346,11 @@ footer li a{
   nav .hamburger .close{
     display: none;
   }
+
   nav .hamburger.show .open{
     display: none;
   }
+  
   nav .hamburger.show .close{
     display: block;
   }
